@@ -1,7 +1,7 @@
 const passwordInput = document.getElementById('password');
 const passwordStrength = document.getElementById('password-strength');
 
-// Function to calculate password strength
+//password strength
 function checkPasswordStrength(password) {
   const minLength = 8;
   const minUpperCase = 1;
@@ -24,7 +24,7 @@ function checkPasswordStrength(password) {
   return strength;
 }
 
-// Function to update password strength feedback
+
 function updatePasswordStrength() {
   const password = passwordInput.value;
   const strength = checkPasswordStrength(password);
